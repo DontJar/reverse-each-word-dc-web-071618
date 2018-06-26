@@ -8,4 +8,5 @@ def reverse_each_word(string)
   array = string.split(' ')
   array.collect do |flip|
     flip.reverse
+  end
 end
