@@ -1,5 +1,5 @@
 def reverse_each_word(array)
-  array.collect do |flip|
-    flip.reverse
+  array.each do |flip|
+    puts flip.reverse
   end
 end
